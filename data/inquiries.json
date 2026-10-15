@@ -1,0 +1,117 @@
+[
+  {
+    "id": "FL-23560",
+    "name": "John Test",
+    "phone": "0412345678",
+    "email": "test@example.com",
+    "urgency": "normal",
+    "preferredTime": "As soon as possible",
+    "caseType": "Drink Driving",
+    "courtDate": "",
+    "notes": "",
+    "status": "new",
+    "createdAt": "2026-10-13T09:51:43.596Z",
+    "summary": "**To:** Adam Ashley\n**Subject:** Executive Briefing: John Test - Drink Driving Case\n\nJohn Test (0412345678) has an urgent Drink Driving case and initiated contact seeking basic information about court procedures, suggesting an upcoming court mention. Counsel Ashley should contact him immediately to confirm his court date, provide preliminary advice, and discuss next steps.",
+    "transcript": [
+      {
+        "role": "user",
+        "text": "What happens at court?"
+      },
+      {
+        "role": "assistant",
+        "text": "At your first court mention..."
+      }
+    ],
+    "internalNotes": ""
+  },
+  {
+    "id": "FL-53544",
+    "name": "Sarah Jenkins",
+    "phone": "0412 345 678",
+    "email": "sarah.j@example.com",
+    "urgency": "normal",
+    "preferredTime": "As soon as possible",
+    "caseType": "Police Interview / Questioning",
+    "courtDate": "",
+    "notes": "Police called requesting attendance tomorrow morning.",
+    "status": "new",
+    "createdAt": "2026-10-13T09:41:18.561Z",
+    "summary": "Sarah Jenkins (0412 345 678) urgently requires representation as police have contacted her requesting an interview regarding an ongoing investigation. It is crucial she does not speak with police without legal counsel present to protect her rights. Please contact Ms. Jenkins immediately to advise her and establish direct communication with the police.",
+    "transcript": [
+      {
+        "role": "user",
+        "text": "Police called requesting an interview.",
+        "timestamp": "10:00 AM"
+      },
+      {
+        "role": "assistant",
+        "text": "Our defense solicitors can represent you and speak with police directly.",
+        "timestamp": "10:01 AM"
+      }
+    ],
+    "internalNotes": ""
+  },
+  {
+    "id": "FL-98441",
+    "name": "Sarah Jenkins",
+    "phone": "0433 123 456",
+    "email": "sarah.j@example.com",
+    "urgency": "urgent",
+    "preferredTime": "As soon as possible",
+    "caseType": "Bail & Assault Charge",
+    "courtDate": "Tomorrow 9:30 AM",
+    "notes": "Arrested in Byron Bay, currently in custody",
+    "status": "new",
+    "createdAt": "2026-10-13T08:42:57.336Z",
+    "summary": "Arrested in Byron Bay, currently in custody",
+    "transcript": [
+      {
+        "role": "user",
+        "text": "My partner was arrested in Byron Bay tonight and held in custody.",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "role": "assistant",
+        "text": "Under the NSW Bail Act, urgent legal intervention is vital. Adam Ashley handles urgent bail applications. What station is he held at?",
+        "timestamp": "11:03 PM"
+      },
+      {
+        "role": "user",
+        "text": "Byron Bay Police Station. Please call me at 0433 123 456.",
+        "timestamp": "11:04 PM"
+      }
+    ],
+    "internalNotes": ""
+  },
+  {
+    "id": "FL-94021",
+    "name": "Marcus Vance",
+    "phone": "0412 890 341",
+    "email": "m.vance@example.com",
+    "urgency": "urgent",
+    "preferredTime": "Immediately / Morning",
+    "caseType": "Police Interview Notice & Bail Review",
+    "courtDate": "2026-10-22",
+    "status": "new",
+    "createdAt": "2026-10-13T07:59:41.939Z",
+    "summary": "Client was requested to attend police station for questioning regarding alleged corporate fraud. Advised to exercise right to silence until Adam Ashley reviews.",
+    "transcript": [
+      {
+        "role": "user",
+        "text": "Hello, the police called and asked me to come into the station for a \"voluntary interview\" tomorrow at 10am.",
+        "timestamp": "10:14 AM"
+      },
+      {
+        "role": "model",
+        "text": "Marcus, do not attend this interview without legal representation. There is no such thing as a \"casual chat\" with detectives. Anything you say will be recorded. Adam Ashley can intervene immediately.",
+        "timestamp": "10:15 AM"
+      },
+      {
+        "role": "user",
+        "text": "Can Adam represent me tomorrow morning? My number is 0412 890 341.",
+        "timestamp": "10:16 AM"
+      }
+    ],
+    "internalNotes": "Flagged for urgent morning callback by Adam Ashley."
+  }
+]
