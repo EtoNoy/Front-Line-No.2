@@ -901,7 +901,7 @@ export function ChatbotWidget({ onInquirySubmitted }: ChatbotWidgetProps = {}) {
                         </>
                       ) : (
                         <>
-                          <span>Send Conversation to Frontline Lawyers</span>
+                          <span>Send Details to Frontline Lawyers</span>
                           <ArrowRight className="w-4 h-4" />
                         </>
                       )}
