@@ -275,7 +275,7 @@ export function FAQPage() {
             <div className="flex flex-wrap items-center gap-3 text-xs text-neutral-200">
               <span className="flex items-center gap-2 bg-charcoal-900 px-3.5 py-2 rounded border border-white/15 font-medium">
                 <Shield className="w-4 h-4 text-gold-300" />
-                Doyle's Guide Recognized Principal Counsel
+                Principal Counsel Adam Ashley
               </span>
               <span className="flex items-center gap-2 bg-charcoal-900 px-3.5 py-2 rounded border border-white/15 font-medium">
                 <FileText className="w-4 h-4 text-gold-300" />

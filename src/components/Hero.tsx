@@ -2,21 +2,6 @@ import { motion } from 'motion/react';
 import { ArrowRight, ShieldAlert } from 'lucide-react';
 // @ts-ignore
 import frontlineBackground from '../assets/images/Frontline Lawyers Image (1).jpg';
-// @ts-ignore
-import dg2023 from '../assets/images/DG Doyles Guide 2023 no. 2.png';
-// @ts-ignore
-import dg2024 from '../assets/images/DG 2024.png';
-// @ts-ignore
-import dg2025 from '../assets/images/DG 2025.png';
-// @ts-ignore
-import dg2026 from '../assets/images/DG 2026.png';
-
-const doyleBadges = [
-  { img: dg2023, year: '2023', alt: "Doyle's Guide 2023 Criminal Defence" },
-  { img: dg2024, year: '2024', alt: "Doyle's Guide 2024 Criminal Defence" },
-  { img: dg2025, year: '2025', alt: "Doyle's Guide 2025 Criminal Defence" },
-  { img: dg2026, year: '2026', alt: "Doyle's Guide 2026 Criminal Defence" },
-];
 
 export function Hero() {
   return (
@@ -71,38 +56,6 @@ export function Hero() {
             <a href="tel:0421066608" className="flex items-center justify-center gap-3 bg-gold-500 text-white px-8 py-4 text-xs font-bold tracking-widest uppercase hover:bg-gold-600 transition-colors duration-300">
               Call: 0421 066 608
             </a>
-          </motion.div>
-          
-          {/* 4 DG badges 2023 through 2026 on crisp white medallion backing for high contrast */}
-          <motion.div 
-             initial={{ opacity: 0 }}
-             animate={{ opacity: 1 }}
-             transition={{ duration: 1, delay: 0.8 }}
-             className="mt-14 border-t border-charcoal-900/20 pt-6 w-full"
-          >
-            <div className="flex items-center gap-2 mb-3">
-              <span className="text-[11px] uppercase font-bold tracking-widest text-charcoal-800 drop-shadow-sm">
-                Doyle's Guide Recommended Criminal Defence · Consecutive Honors
-              </span>
-            </div>
-            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
-              {doyleBadges.map((badge) => (
-                <div 
-                  key={badge.year} 
-                  className="bg-white rounded-xl px-3 py-2 sm:px-3.5 sm:py-2.5 shadow-md border border-neutral-200 hover:border-gold-500 hover:shadow-xl transition-all duration-200 flex flex-col items-center justify-center hover:scale-105"
-                >
-                  <img 
-                    src={badge.img} 
-                    alt={badge.alt} 
-                    className="h-12 sm:h-14 md:h-16 w-auto object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-charcoal-900 mt-0.5">
-                    {badge.year} Ranked
-                  </span>
-                </div>
-              ))}
-            </div>
           </motion.div>
         </div>
       </div>
